@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(117, 17, 109);
+}
+.firstimage{
+    position: relative;
+    height: 350px;
+    width:100%;
+}
+.secondimage{
+    position: absolute;
+    height: 350px;
+    width: 98.6%;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;;
+
+}
+.text2{
+    position: absolute;
+    top: 328px;
+    left: 675px;
+    color: black;
+    border-width: 2px;
+    border-color: rgb(189, 88, 149);
+    border-style: solid;
+    background-color: rgb(164, 35, 179);
+    border-radius:5px;
+}
+
+hrline{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+hrline :before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+  
+hrline :after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+
+.text{
+    text-align: center;
+    color: white;
+}
+.secondline{
+    font-weight: bolder;
+}
+
+.starimage{
+    height: 15px;
+    width: 20px;
+}
+
+.icons{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    
+    
+    
+    
+}
+
+
+.button{
+   text-align: center;
+}
+
+#button{
+    border-radius: 5px;
+    color:rgb(117,17,109) ;
+    background-color: yellow;
+    padding: 12px;
+    
+}

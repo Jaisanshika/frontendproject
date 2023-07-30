@@ -1,0 +1,28 @@
+.center{
+    display: block;
+    width: 10%;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.text1{
+   position: absolute;
+  top: 430px;
+  left: 740px;
+  color: rgb(229, 139, 11);
+}
+
+.text2{
+  position: fixed;
+  top: 640px;
+  left: 728px;
+  color: rgb(117, 17, 109);
+}
+
+.ohmimage{
+  height: 17px;
+  width: 20px;
+}
+  
+  
